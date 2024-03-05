@@ -10,8 +10,6 @@ const prezzokm = 0.21 //number
 //PREZZO VIAGGIO IN BASE AI KM
 
 let prezzo = km * prezzokm //number
-
-let sconto40 = prezzo * 0.40
 if (age < 18) {
     prezzo = prezzo * 0.8 //SCONTO 20% PER MINORENNI
 } else if(age >= 65) {
